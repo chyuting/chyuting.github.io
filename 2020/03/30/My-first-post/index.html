@@ -7,20 +7,20 @@
   
   <title>My first post | Mia Chen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="I have a tabby cat Larry. (Note that the image should be along with the html file, not the Markdown file).">
+  <meta name="description" content="I have a tabby cat Larry.   How to add images?  Create a subdirectory: “public&#x2F;images”. Put all images into it. Refer image by its relative path in markdown language, e.g “&#x2F;images&#x2F;Larry.jpg”. Genrate">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My first post">
 <meta property="og:url" content="http://yoursite.com/2020/03/30/My-first-post/index.html">
 <meta property="og:site_name" content="Mia Chen">
-<meta property="og:description" content="I have a tabby cat Larry. (Note that the image should be along with the html file, not the Markdown file).">
+<meta property="og:description" content="I have a tabby cat Larry.   How to add images?  Create a subdirectory: “public&#x2F;images”. Put all images into it. Refer image by its relative path in markdown language, e.g “&#x2F;images&#x2F;Larry.jpg”. Genrate">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://yoursite.com/2020/03/30/My-first-post/images/Larry.jpg">
+<meta property="og:image" content="http://yoursite.com/images/Larry.jpg">
 <meta property="article:published_time" content="2020-03-30T19:19:57.000Z">
-<meta property="article:modified_time" content="2020-03-30T21:30:48.719Z">
+<meta property="article:modified_time" content="2020-03-30T21:55:29.244Z">
 <meta property="article:author" content="Mia Chen">
 <meta property="article:tag" content="Larry">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/2020/03/30/My-first-post/images/Larry.jpg">
+<meta name="twitter:image" content="http://yoursite.com/images/Larry.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Mia Chen" type="application/atom+xml">
   
@@ -91,13 +91,19 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>I have a tabby cat Larry. (Note that the image should be along with the html file, not the Markdown file).</p>
-<p><img src="images/Larry.jpg" alt="Larry is a handsome boy"></p>
-
+        <p>I have a tabby cat Larry. </p>
+<p><img src="/images/Larry.jpg" alt="Larry is a handsome boy"></p>
+<p>How to add images?</p>
+<ol>
+<li>Create a subdirectory: “public/images”. Put all images into it.</li>
+<li>Refer image by its relative path in markdown language, e.g “/images/Larry.jpg”.</li>
+<li>Genrate static files and deploy to github.</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate -d</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/30/My-first-post/" data-id="ck8eyyyr100016gak9jjqfeh5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/03/30/My-first-post/" data-id="ck8f0hnua0001kcakh0v8fvqz" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Larry/" rel="tag">Larry</a></li></ul>
@@ -106,16 +112,6 @@
   </div>
   
     
-<nav id="article-nav">
-  
-  
-    <a href="/2020/03/30/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
   
 </article>
 
@@ -163,10 +159,6 @@
         
           <li>
             <a href="/2020/03/30/My-first-post/">My first post</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/30/hello-world/">Hello World</a>
           </li>
         
       </ul>
